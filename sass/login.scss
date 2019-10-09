@@ -1,0 +1,92 @@
+.header{
+    padding: 20px 0;
+}
+.loginImg,.loginArea{
+    vertical-align: middle;
+}
+.loginArea{
+    display: inline-block;
+    width: 450px;
+    margin: 0 78px;
+    .tableArea{
+        width: 85%;
+        background: #fafafa;
+        border: 1px solid #eee;
+        box-shadow: 3px 3px #f5f5f5;
+        table{
+            margin: 28px auto;
+            tr{
+                line-height: 30px;
+            }
+            th{
+                text-align: right;
+                width: 60px;
+                font-size: 14px;
+                color: #666;
+                font-weight: normal;
+            }
+            td{
+                font-size: 12px;
+                color: #999;
+                padding: 7px 0;
+                a{
+                    color: #666;
+                }
+                .x-input{
+                    width: 220px;
+                    color: #000;
+                    border: 1px solid rgb(204,204,204);
+                    padding: 3px 5px;
+                    height: 22px;
+                    line-height: 22px;
+                }
+                .yanzheng_input{
+                    width: 65px;
+                    border: 1px solid #ccc;
+                    padding: 3px 5px;
+                    height: 22px;
+                    line-height: 22px;
+                }
+                #canvas{
+                    vertical-align: middle;
+                }
+                .loginBtn{
+                    width: 89px;
+                    height: 38px;
+                    color: #fff;
+                    font-weight: bold;
+                    background: url(../img/scn.png) no-repeat 0 -198px;
+                }
+                .change:hover{
+                    color: #666;
+                }
+                .forget{
+                    color: #777;
+                }
+                .toRegister{
+                    color: #ff6600;
+                    text-decoration: underline;
+                }
+                a:hover{
+                    color: #ff0000;
+                    text-decoration: underline;
+                }
+            }
+        }   
+    }
+    .login_together{
+        p{
+            color: #999;
+            padding: 10px 0;
+        }
+        a{
+            display: inline-block;
+            width: 115px;
+        }
+    }
+}
+.footer{
+    width: 980px;
+    margin: 30px auto 0;
+    border-top: 2px solid #CE3C3B;
+}

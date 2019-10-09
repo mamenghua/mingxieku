@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>查看购物车_名鞋库_【www.S.cn】</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cart.css"/>
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/cart_num.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header id="header">
+			<div class="head_top">
+				<div class="head_top_wrap">
+					
+					<ul class="head_menu">
+						<li>
+							你好，欢迎来到名鞋库！
+						</li>
+						<li class="navLogin">
+							<a href="../html/login.html">欢迎登录名鞋库</a>
+						</li>
+						<li class="navRegister">
+							<a href="../html/register.html">免费注册</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!--contentArea-->
+		<section id="contentArea">
+			<div class="cart_top">
+				<h1 class="logo">
+					<a href="../index.html">
+						<img src="../img/logo_inner.png"/>
+					</a>
+				</h1>
+			</div>
+			<div class="step">
+				<img src="../img/cartnav-step01.jpg"/>
+			</div>
+			<div class="cart">
+				<h3 class="title">我的购物车</h3>
+				<div class="cart_head">
+					<table>
+						<tr>
+							<th>
+								<input type="checkbox" id="checkAll"/>
+							</th>
+							<th>商品信息</th>
+							<th>赠送积分</th>
+							<th>销售价格</th>
+							<th>数量</th>
+							<th>折扣/优惠</th>
+							<th>小计</th>
+							<th>操作</th>
+						</tr>
+					</table>
+				</div>
+				<div class="cart_product">
+					<table id="cart_list_table">
+						<!--<tr>
+							<td>
+								<input type="checkbox" />
+							</td>
+							<td>
+								<a href="#">
+									<img src="../img/cart_img.jpg" width="50" height="50"/>
+								</a>
+							</td>
+							<td>
+								<h3 class="tit">adidas阿迪达斯三叶草男鞋2019新款YUNG-96复古老爹鞋EE7238</h3>
+								<i>( 尺码:39,颜色:白色+灰色 )</i>
+							</td>
+							<td>0</td>
+							<td>￥<i class="price">50</i>.00</td>
+							<td>
+								<span class="numdec"></span>
+								<input type="text" class="num" value="1"/>
+								<span class="numadd"></span>
+							</td>
+							<td>-</td>
+							<td>￥<i class="perPrice">50</i>.00</td>
+							<td>
+								<a href="#">收藏</a>
+								<br />
+								<a class="delBtn" href="javascript:void(0);">删除</a>
+							</td>
+						</tr>-->
+						
+						
+					</table>
+				</div>
+				<div class="cart_check_info">
+					<p>商品数量： <span class="totalNum">0</span> 件</p>
+					<p>商品总金额： <span class="totalPrice">￥<i class="totalPri">0</i>.00</span></p>
+				</div>
+				<div class="cart_check_act">
+					<div class="tip">
+						<i>提示：</i>
+						加入购物车的商品无法为您保证库存，请及时下单支付。
+					</div>
+					<input type="button" class="buyBtn" value="下单结算" />
+					<a class="goBuy" href="lists.html"><i></i>继续购物</a>
+				</div>
+			</div>
+		</section>
+		
+	</body>
+</html>

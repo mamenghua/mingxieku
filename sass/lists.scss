@@ -1,0 +1,85 @@
+#content{
+    margin: 20px auto;
+}
+//productList
+.productList{
+    dl{
+        width: 237px;
+        margin: 10px 5px;
+        display: inline-block;
+        float: left;
+        dt{
+            text-align: center;
+            padding: 1px;
+            border: 1px solid #eee;
+            a{
+                display: block;
+                width: 100%;
+                img{
+                    width: 210px;
+                    height: 210px;
+                }
+            }
+        }
+        dd{
+            width: 235px;
+            a{
+                display: block;
+                color: #333;
+                ul{
+                    width: 233px;
+                    border: 2px solid #fff;
+                    border-top: 0;
+                    padding-bottom: 2px;
+                }
+                li{
+                    padding-left: 3px;
+                }
+                .tit{
+                    height: 36px;
+                    line-height: 18px;
+                    padding-top: 4px;
+                    // 双行文本溢出显示省略号
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .price{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #f00;
+                }
+                .del_price{
+                    color: #000;
+                }
+                .buy_btn{
+                    display: inline-block;
+                    float: right;
+                    width: 65px;
+                    height: 18px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #fff;
+                    background: #000;
+                    margin-right: 3px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    dl:hover{
+        dt{
+            border: 2px solid red;
+            border-bottom: 0;
+            padding: 0;
+            padding-bottom: 2px;
+        }
+        dd{
+            ul{
+                border-color: red;
+            }
+        }
+    }
+}

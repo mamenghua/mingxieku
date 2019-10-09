@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header class="header">
+			<div class="wrap">
+				<h1 class="logo">
+					<a href="../index.html">
+						<img src="../img/logo.png"/>
+					</a>
+				</h1>
+			</div>
+		</header>
+		<!--content-->
+		<section id="content">
+			<div class="wrap">
+				<p class="returnIndex"><a href="../index.html">返回首页</a></p>
+				<div class="registerArea">
+					<h3 class="title">名鞋库用户注册</h3>
+					<table>
+						<tr>
+							<th>用户名：</th>
+							<td><input id="username" class="x-input" type="text" placeholder="邮箱/手机" /></td>
+						</tr>
+						<tr>
+							<th>密码：</th>
+							<td><input id="password" class="x-input" type="password" /></td>
+						</tr>
+						<tr>
+							<th>邮箱：</th>
+							<td><input id="email" class="x-input" type="text" /></td>
+						</tr>
+						<tr>
+							<th>性别：</th>
+							<td><input id="sex" class="x-input" type="text" maxlength="1"/></td>
+						</tr>
+						<tr>
+							<th>验证码：</th>
+							<td>
+								<input class="yanzheng_input" type="text" />
+								<canvas id="canvas" width="60" height="26"></canvas>
+								<a class="change" href="javascript:void(0);">换个图片</a>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="checkbox" checked="checked" disabled="disabled"/>
+								我已同意并阅读
+								<a class="protocol" href="#">名鞋库会员注册协议。</a>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="padding: 0;">
+								<input id="registerBtn" type="button" value="注册新用户" class="registerBtn"/>
+							</td>
+						</tr>
+					</table>
+					<div class="toLoginArea">
+						<br />
+						<br />
+						<br />
+						<br />
+						<b>已经有名鞋库账号？</b>
+						<br />
+						<a class="goLoginBtn" href="login.html">现在登录</a>
+						<br />
+						<img src="../img/register.png"/>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<!--footer-->
+		<footer class="footer">
+			<div class="foot_middle">
+				<span class="foot_mid_list">
+					<a href="#">关于名鞋库</a>|
+					<a href="#">名鞋库资讯</a>|
+					<a href="#">联系名鞋库</a>|
+					<a href="#">人才招聘</a>|
+					<a href="#">免责条款</a>|
+					<a href="#">法律声明</a>|
+					<a href="#">意见反馈</a>|
+					<a href="#">全部分类</a>|
+					<a href="#">友情链接</a>|
+					<a href="#">鞋码对照表</a>|
+					<a href="#">问答咨询标签主题</a>|
+					<a href="#">鞋子品牌大全</a>|
+					<a href="#">商品大全</a>
+				</span>
+				<div>
+					Copyright &copy; 2008-2014
+					<i>s.cn</i>
+					<a href="#">名鞋库</a>
+					All Rights Reserved.&emsp;
+					<a href="http://www.miibeian.gov.cn" target="_blank">闽ICP备08106896号</a>
+					&emsp;经营许可证闽B2-20110061&emsp;
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

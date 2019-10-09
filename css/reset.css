@@ -1,0 +1,7 @@
+body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,input,img,table,fieldset,legend,figure,figcaption {margin: 0;padding: 0;}
+ul,li,ol {list-style: none;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;}
+img {vertical-align: top;}
+input {outline: none;border: 0;}
+em,i {font-style: normal;}
+a {text-decoration: none;}

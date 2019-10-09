@@ -1,0 +1,169 @@
+#contentArea{
+    width: 980px;
+    margin: 0 auto;
+    .cart_top{
+        .logo{
+            padding-top: 25px;
+        }
+    }
+    .cart{
+        .title{
+            line-height: 30px;
+            color: #555;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .cart_head{
+            border: 1px solid #e3e3e3;
+            background: #fafafa;
+            height: 30px;
+            line-height: 30px;
+            padding: 0 20px;
+            table{
+                width: 100%;
+                border-spacing: 0;
+                th{
+                    color: #555;
+                    font-weight: normal;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding: 0;
+                    &:not(:nth-child(2)){
+                        width: 90px;
+                    }
+                    &:first-child{
+                        width: 15px;
+                    }
+                }
+                
+            }
+        }
+        
+        .cart_product{
+            border: 1px solid #f0f0f0;
+            padding: 0 20px;
+            table{
+                width: 100%;
+                border-spacing: 0;
+                tr{
+                    height: 80px;
+                }
+                td{
+                    font-size: 12px;
+                    color: #666;
+                    text-align: center;
+                    vertical-align: middle;
+                    border-bottom: 1px dotted #ddd;
+                    padding: 0;
+                    &:not(:nth-child(3)){
+                        width: 90px;
+                    }
+                    &:first-child{
+                        width: 15px;
+                    }
+                    &:nth-child(3){
+                        text-align: left;
+                    }
+                    .tit{
+                        font-size: 12px;
+                    }
+                    .tit:hover{
+                        color: #ee0000;
+                    }
+                    span{
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        background: url(../img/cart_bg.png) no-repeat;
+                        cursor: pointer;
+                        vertical-align: middle;
+                    }
+                    .numdec{
+                        background-position: -179px -94px;
+                    }
+                    .numdec:hover{
+                        background-position: -210px -94px;
+                    }
+                    .numadd{
+                        background-position: -194px -94px;
+                    }
+                    .numadd:hover{
+                        background-position: -225px -94px;
+                    }
+                    .num{
+                        width: 25px;
+                        padding: 2px;
+                        border: 1px solid #e0e0e0;
+                        margin: 0 4px;
+                        text-align: center;
+                        font-size: 12px;
+                    }
+                    a{
+                        color: #666;
+                    }
+                    a:hover{
+                        color: #ee0000;
+                    }
+                }
+                
+            }
+        }
+        
+        .cart_check_info{
+            border-bottom: 1px solid #ccc;
+            text-align: right;
+            padding: 20px 0 10px;
+            color: #333;
+            line-height: 32px;
+            .totalNum{
+                color: #c00;
+                font-weight: bold;
+            }
+            .totalPrice{
+                font-size: 22px;
+                color: #c00;
+                margin-left: 5px;
+            }
+        }
+        
+        .cart_check_act{
+            padding: 20px 0;
+            height: 50px;
+            .tip{
+                color: #aaa;
+                i{
+                    color: #c00;
+                }
+            }
+            .goBuy{
+                float: right;
+                margin-right: 30px;
+                font-size: 14px;
+                color: #333;
+                line-height: 40px;
+                i{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    background: url(../img/cart_bg.png) no-repeat -279px -98px;
+                    vertical-align: middle;
+                }
+            }
+            .buyBtn{
+                width: 171px;
+                height: 37px;
+                line-height: 36px;
+                background: url(../img/cart_bg.png) no-repeat 0 -120px;
+                padding: 0;
+                color: #fff;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 2px;
+                cursor: pointer;
+                float: right;
+            }
+        }
+    }
+}

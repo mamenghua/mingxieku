@@ -1,0 +1,464 @@
+$middle-width:990px;
+$font-size:12px;
+$line-height:16px;
+$color:#333333;
+$hover-color:#cc0000;
+
+html,body{height: 100%;}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+body{
+    font-size: $font-size;
+    color: $color;
+}
+
+.head_top_wrap, .head_bottom, #bannerWrap, .wrap{
+    width: $middle-width;
+    margin: 0 auto;
+}
+
+//header
+.head_top{
+    background: #eee;
+    border-bottom: 1px solid #e5e5e5;
+}
+.head_top_wrap{
+    position: relative;
+    height: 16px;
+    padding: 4px 0;
+}
+
+.head_menu{
+    position: absolute;
+    right: 0;
+    li{
+       float: left;
+        padding: 0 15px;
+        border-right: 1px solid #d5d5d5;
+        line-height: $line-height;
+        a{
+            color: $color;
+        }
+        a:hover{
+            color: #ff0000;
+            text-decoration: underline;
+        }
+    }
+    .navLogin a{color: #ff6600;}
+    .navRegister a{color: #ff6600;}
+}
+
+.logo{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.sub_help{
+    float: right;
+    padding-top: 8px;
+    width: 535px;
+    height: 68px;
+    .searchArea{
+        position: relative;
+        float: left;
+        padding: 8px 0 4px;
+        .search{
+            width: 260px;
+            height: 26px;
+            padding: 0 5px;
+            border: 2px solid #d5d5d5;
+            border-right: 0;
+            float: left;
+        }
+        .searchBtn{
+            width: 65px;
+            height: 30px;
+            background: #444;
+            color: #fff;
+            font-size: 16px;
+            float: left;
+        }
+        .keyword{
+            height: 28px;
+            line-height: 28px;
+            color: #ccc;
+            a{
+                color: #888;
+                padding-right: 4px;
+            }
+            a:hover{
+                color: $hover-color;
+                text-decoration: underline;
+            }
+        }
+        .searchList{
+            position: absolute;
+            top: 37px;
+            left: 1px;
+            z-index: 1;
+            height: 270px;
+            overflow: hidden;
+            li{
+                background: #fff;
+                width: 260px;
+                height: 26px;
+                line-height: 26px;
+                padding: 0 5px;
+                border: 1px solid #d5d5d5;
+                border-top: 0;
+            }
+            li:hover{
+                background: #eee;
+                color: #dd0000;
+                cursor: pointer;
+            }
+        }
+    }
+    .cart{
+        float: right;
+        width: 126px;
+        height: 34px;
+        line-height: 34px;
+        padding-top: 12px;
+        overflow: hidden;
+        a{
+            display: block;
+            padding-left: 46px;
+            width: 100px;
+            background: url(../img/head_cart_bg.gif) no-repeat;
+            .cart-num{
+                padding: 0 3px;
+                color: $hover-color;
+            }
+        }
+        & a:hover{
+            background-position: 0 -34px;
+            color: #ffffff;
+        }
+    }
+}
+
+//nav
+#navWrap{
+    height: 34px;
+    padding-bottom: 5px;
+    background: url(../img/nav_bottom_bg.gif) repeat-x bottom;
+}
+.nav{
+    width: 1050px;
+    margin: 0 auto;
+    height: 34px;
+    background: #a21f25;
+    .clearfix>li{
+        float: left;
+    }
+    .clearfix .subnav{
+        float: right;
+        margin-right: -60px;
+        a{
+            padding: 0 10px;
+            border-right: 1px solid #d18f92;
+        }
+        img{
+            height: 33px;
+        }
+    }
+    .lf_nav{
+        width: 190px;
+        line-height: 34px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        background: #B9363D;
+        color: #fff;
+    }
+    .tnav{
+        >a{
+            display: block;
+            position: relative;
+            float: left;
+            font-size: 14px;
+            color: #fff;
+            padding: 0 18px;
+            height: 34px;
+            line-height: 34px;
+            background: url(../img/line.png) no-repeat 0 center;
+            ul{
+                position: absolute;
+                top: 34px;
+                left: 0px;
+                z-index: 9;
+                display: block;
+                background: #fff;
+                color: #555555;
+                border: 1px solid #e5e5e5;
+                width: 100%;
+                display: none;
+                li{
+                    text-align: center;
+                    a{
+                        color: #555;
+                    }
+                    a:hover{
+                        color: #a21f25;
+                        font-weight: bold;
+                    }
+                }
+                line-height: 34px;
+            }
+        }
+        >a.first{
+            padding-left: 21px;
+        }
+        >a.on{
+            background: #444;
+            border-left: 1px solid #a21f25;
+            margin-left: -1px;
+        }
+        >a:hover{
+            background: #444;
+            border-left: 1px solid #a21f25;
+            margin-left: -1px;
+            ul{
+                left: -1px;
+            }
+        }
+        
+    }
+}
+//content
+#content{
+    overflow: hidden;    
+}
+
+//bannerWrap
+#bannerWrap{
+    position: relative;
+    height: 543px;
+}
+.banner_con{
+    width: 1920px;
+    height: 543px;
+    position: absolute;
+    left: -465px;
+    top: 0;
+    li{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    li:first-child{
+        display: block;
+    }
+}
+.banner_nav{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    li{
+        display: block;
+        float: left;
+        width: 14px;
+        height: 14px;
+        background: #B5B5B5;
+        border-radius: 50%;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .current{
+        background: #C80002;
+    }
+}
+
+//footer
+#footer{
+    border-top: 2px solid #ce3c3b;
+    background: #f8f8f8;
+    padding-bottom: 1px;
+    .foot_head{
+        padding: 15px;
+        background: #f5f5f5;
+        border-bottom: 1px solid #e8e8e8;
+        .contact{
+            width: 220px;
+            height: 195px;
+            border-right: 1px solid #dedede;
+            float: left;
+        }
+        .footList{
+            border-left: 1px solid #fff;
+            height: 195px;
+            padding-left: 40px;
+            float: left;
+            li{
+                width: 186px;
+                float: left;
+                line-height: 18px;
+                h3{
+                    margin: 5px 0 25px;
+                }
+                .tit{
+                    margin-bottom: 6px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                .aLists{
+                    a{
+                        color: #999;
+                    }
+                    a:hover{
+                        color: $hover-color;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            li:last-child{
+                width: 156px;
+            }
+        }
+    }
+    
+    .div_bottom{
+        width: 640px;
+        height: 50px;
+        margin: 0 auto 30px;
+        a{
+            width: 112px;
+            height: 47px;
+            margin-right: 10px;
+            float: left;
+        }
+    }
+}
+.foot_middle{
+    text-align: center;
+    padding: 20px 0;
+    color: #777;
+    a{
+        color: #777;
+    }
+    a:hover{
+        color: $hover-color;
+        text-decoration: underline;
+    }
+    .foot_mid_list{
+        a{
+            padding: 0 10px;
+        }
+    }
+    i{
+        font-size: 20px;
+        color: $hover-color;
+        font-weight: 700;
+    }
+}
+
+#rightBar{
+    position: fixed;
+    width: 37px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: #000;
+    .rBarBox{
+        position: relative;
+        cursor: pointer;
+    }
+    .rBarBox:hover{
+        background-color: #c40000;
+    }
+    .rbar-logo{
+        display: inline-block;
+        width: 37px;
+        height: 35px;
+        background: url(../img/rbar_icon.png) no-repeat;
+    }
+    .rBarTop{
+        background-color: #BD0000;
+        top: 0;
+        left: -4px;
+        width: 41px;
+        height: 157px;
+        .gift{
+            background-position: 7px 14px;
+        }
+        .rab-wide-txt{
+            width: 20px;
+            font-size: 18px;
+            line-height: 22px;
+            padding: 0 3px;
+            text-align: center;
+            position: absolute;
+            top: 48px;
+            left: 6px;
+        }
+    }
+    .rBarBrand{
+        height: 122px;
+        margin-top: 23px;
+        .brand{
+            background-position: 6px -29px;
+        }
+        .rbar-txt{
+            width: 20px;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            position: absolute;
+            top: 40px;
+            left: 8px;
+        }
+    }
+    .rBarCart{
+        top: 8px;
+        .cart-border{
+            position: absolute;
+            top: -5px;
+            left: 5px;
+            width: 25px;
+            border-top: 1px solid #676767;
+        }
+        .cart{
+            background-position: 6px -77px;
+        }
+    }
+    .rBarOrder{
+        top: 13px;
+        .order{
+            background-position: 10px -119px;
+        }
+    }
+    .rBarGoTop{
+        position: absolute;
+        bottom: 10px;
+        display: none;
+        .gotop{
+            background-position: 7px -324px;
+        }
+    }
+    .rBarShare{
+        position: absolute;
+        bottom: 50px;
+        .share{
+            background-position: 8px -273px;
+        }
+    }
+    .rBarFavor{
+        position: absolute;
+        bottom: 90px;
+        .favor{
+            background-position: 7px -218px;
+        }
+    }
+}

@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>名鞋库网上鞋城,超值名牌鞋服网站,买鞋子,就在S.cn名鞋库！</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/cart_num.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--header-->
+		<header id="header">
+			<div class="head_top">
+				<div class="head_top_wrap">
+					<ul class="head_menu">
+						<li class="navLogin">
+							<a href="html/login.html">欢迎登录名鞋库</a>
+						</li>
+						<li class="navRegister">
+							<a href="html/register.html">免费注册</a>
+						</li>
+						<li>
+							<a href="#">我的名鞋库</a>
+						</li>
+						<li>
+							<a href="#">手机名鞋库</a>
+						</li>
+						<li>
+							<a href="#">收藏名鞋库</a>
+						</li>
+						<li>
+							<img src="img/tel.png" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="head_bottom clearfix">
+				<h1 class="logo">
+								<a href="index.html">
+									<img src="img/logo.png"/>
+								</a>
+							</h1>
+				<div class="sub_help">
+					<div class="searchArea">
+						<input id="searchText" type="text" class="search" />
+						<input type="button" value="搜索" class="searchBtn" />
+						<ul class="searchList">
+							
+						</ul>
+						<div class="keyword">
+							热搜：
+							<a href="#">跑步鞋</a>
+							<a href="#">帆布鞋</a>
+							<a href="#">T恤</a>
+							<a href="#">胸衣Bra</a>
+							<a href="#">紧身打底裤</a>
+							<a href="#">三叶草</a>
+						</div>
+					</div>
+					<div class="cart">
+						<a href="html/cart.html">
+							购物车<i class="cart-num">0</i>件
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--nav-->
+		<nav id="navWrap">
+			<div class="nav">
+				<ul class="clearfix">
+					<li class="subnav">
+						<a href="#">
+							<img src="img/zp.png"/>
+						</a>
+					</li>
+					<li class="lf_nav">所有商品分类</li>
+					<li class="tnav">
+						<a href="index.html" class="first on">首页</a>
+						<!--<a href="#">男子运动</a>
+						<a href="#">女子运动</a>
+						<a href="#">儿童</a>
+						<a href="#">配件</a>-->
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!--content-->
+		<section id="content">
+			<!--banner-->
+			<div id="bannerWrap">
+				<ul class="banner_con">
+					<li>
+						<a href="#">
+							<img src="img/banner1.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/banner2.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/banner3.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/banner4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/banner5.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<ul class="banner_nav">
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<!--gonggao-->
+			<div id="gonggaoWrap">
+				<div class="gonggao">
+					<img src="img/gonggao.jpg"/>
+				</div>
+			</div>
+			<!--hotBrand-->
+			<div id="hotBrandWrap">
+				<div class="hotBrand">
+					<img src="img/hotBrand.jpg" usemap="#brand"/>
+					<map name="brand" id="brand">
+						<!--rect 表矩形 coords属性(x1,y1,x2,y2) x1,y1为左上角坐标 x2,y2表右下角坐标-->
+						<!--alt为图片加载失败时显示的内容，title为鼠标悬停时显示的提示信息-->
+						<area shape="rect" coords="354,210,540,336" href="#" alt="nike" title="nike"/>
+						<area shape="rect" coords="593,217,754,337" href="#" alt="adidas" title="adidas"/>
+						<area shape="rect" coords="800,222,952,341" href="#" alt="puma" title="puma"/>
+						<area shape="rect" coords="1004,225,1172,336" href="#" alt="converse" title="converse"/>
+						<area shape="rect" coords="1213,221,1372,340" href="#" alt="originals" title="originals"/>
+						<area shape="rect" coords="1430,230,1590,338" href="#" alt="skechers" title="skechers"/>
+						<area shape="rect" coords="332,360,557,456" href="#" alt="neo" title="neo"/>
+						<area shape="rect" coords="606,359,748,474" href="#" alt="newbalance" title="newbalance"/>
+						<area shape="rect" coords="809,359,962,476" href="#" alt="dc" title="dc"/>
+						<area shape="rect" coords="1017,364,1172,472" href="#" alt="vaseshi" title="vaseshi"/>
+						<area shape="rect" coords="1238,365,1375,478" href="#" alt="vans" title="vans"/>
+						<area shape="rect" coords="1434,354,1595,486" href="#" alt="lining" title="lining"/>
+					</map>
+				</div>
+			</div>
+			<!--explosion-->
+			<div id="explosionWrap">
+				<div class="titleImg">
+					<img src="img/explosion.jpg"/>
+				</div>
+				<ul class="tuijianList clearfix">
+					<li>
+						<a href="#">
+							<img src="img/product1.jpg"/>
+							<span>+</span>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			<!--autumnWrap-->
+			<div id="autumnWrap">
+				<div class="titleImg">
+					<img src="img/autumn.jpg"/>
+				</div>
+				<ul class="tuijianList clearfix">
+					<li>
+						<a href="#">
+							<img src="img/product5.jpg"/>
+							<span>+</span>
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			<!--newproductsWrap-->
+			<div id="newproductsWrap">
+				<div class="titleImg">
+					<img src="img/newproducts.jpg"/>
+				</div>
+				<ul class="tuijianList clearfix">
+					
+					<li>
+						<a href="#">
+							<img src="img/product5.jpg"/>
+							<span>+</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--hotAlbumWrap-->
+			<div id="hotAlbumWrap">
+				<div class="titleImg">
+					<img src="img/hotalbum.jpg"/>
+				</div>
+				
+				<ul class="albumList clearfix">
+					<li>
+						<img src="img/albumImg1.jpg"/>
+						<h3>跑步鞋专区</h3>
+						<h4>2019/RUN</h4>
+					</li>
+					<li>
+						<img src="img/albumImg2.jpg"/>
+						<h3>秋季新品专区</h3>
+						<h4>2019/NEW</h4>
+					</li>
+					<li>
+						<img src="img/albumImg3.jpg"/>
+						<h3>休闲鞋专区</h3>
+						<h4>2019/RUN</h4>
+					</li>
+					<li>
+						<img src="img/albumImg4.jpg"/>
+						<h3>夏季专区</h3>
+						<h4>2019/SUMMER</h4>
+					</li>
+				</ul>
+			</div>
+			<!--fenleiWrap-->
+			<div id="fenleiWrap">
+				<div class="titleImg">
+					<img src="img/fenlei.jpg"/>
+				</div>
+			</div>
+			<!--sweaterWrap-->
+			<div id="sweaterWrap">
+				<div class="titleImg">
+					<img src="img/sweater.jpg"/>
+				</div>
+				<div class="productList clearfix"></div>
+			</div>
+			<!--sweatpantsWrap-->
+			<div id="sweatpantsWrap">
+				<div class="titleImg">
+					<img src="img/sweatpants.jpg"/>
+				</div>
+				<div class="productList clearfix">
+					
+					<dl>
+						<dt>
+							<a href="#">
+								<img src="img/product5.jpg"/>
+							</a>
+						</dt>
+						<dd>
+							<a href="#">
+								<ul>
+									<li class="tit">adidas女服运动长裤2019新款训练收口针织运动休闲运动服DP2380</li>
+									<li>
+										<i class="price">￥349</i>
+										<del class="del_price">￥599</del>
+										<span class="buy_btn">立即抢购</span>
+									</li>
+								</ul>
+							</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--hotBrandBottom-->
+			<div id="hotBrandBottomWrap">
+				<div class="hotBrand">
+					<img src="img/hotBrand.jpg" usemap="#brandBottom"/>
+					<map name="brandBottom" id="brandBottom">
+						<!--rect 表矩形 coords属性(x1,y1,x2,y2) x1,y1为左上角坐标 x2,y2表右下角坐标-->
+						<!--alt为图片加载失败时显示的内容，title为鼠标悬停时显示的提示信息-->
+						<area shape="rect" coords="352,191,538,327" href="#" alt="nike" title="nike"/>
+						<area shape="rect" coords="620,193,758,333" href="#" alt="adidas" title="adidas"/>
+						<area shape="rect" coords="810,217,968,315" href="#" alt="puma" title="puma"/>
+						<area shape="rect" coords="1024,213,1184,333" href="#" alt="converse" title="converse"/>
+						<area shape="rect" coords="1236,203,1374,319" href="#" alt="originals" title="originals"/>
+						<area shape="rect" coords="1458,205,1616,325" href="#" alt="skechers" title="skechers"/>
+						<area shape="rect" coords="312,335,580,455" href="#" alt="neo" title="neo"/>
+						<area shape="rect" coords="616,347,768,451" href="#" alt="newbalance" title="newbalance"/>
+						<area shape="rect" coords="820,339,950,461" href="#" alt="dc" title="dc"/>
+						<area shape="rect" coords="1022,347,1198,457" href="#" alt="vaseshi" title="vaseshi"/>
+						<area shape="rect" coords="1230,345,1394,457" href="#" alt="vans" title="vans"/>
+						<area shape="rect" coords="1452,355,1622,453" href="#" alt="lining" title="lining"/>
+					</map>
+				</div>
+			</div>
+			<!--brandList-->
+			<div id="brandListWrap">
+				<ul class="brandList clearfix">
+					<li class="nike"><a href="#"></a></li>
+					<li class="adidas"><a href="#"></a></li>
+					<li class="originals"><a href="#"></a></li>
+					<li class="neo"><a href="#"></a></li>
+					<li class="newbalance"><a href="#"></a></li>
+					<li class="converse"><a href="#"></a></li>
+					<li class="skechers"><a href="#"></a></li>
+					<li class="puma"><a href="#"></a></li>
+					<li class="vans"><a href="#"></a></li>
+					<li class="vaseshi"><a href="#"></a></li>
+					<li class="dc"><a href="#"></a></li>
+					<li class="lining"><a href="#"></a></li>
+					<li class="nike_tx"><a href="#"></a></li>
+					<li class="adidas_tx"><a href="#"></a></li>
+				</ul>
+			</div>
+			<!--btmfenleiWrap-->
+			<div id="btmfenleiWrap">
+				<div class="btmfenlei_hd">
+					<h3>商品分类</h3>
+				</div>
+				<div class="btmfenlei_body">
+					<dl>
+						<dt>
+							<a href="#">
+								<h4>运动鞋</h4>
+								<img src="img/btmfenlei_img1.jpg"/>
+							</a>
+						</dt>
+						<dd>
+							<a href="#">运动鞋</a>
+							<a href="#">户外鞋</a>
+							<a href="#">跑步鞋</a>
+							<a href="#">篮球鞋</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">
+								<h4>运动休闲鞋</h4>
+								<img src="img/btmfenlei_img2.jpg"/>
+							</a>
+						</dt>
+						<dd>
+							<a href="#">帆布鞋</a>
+							<a href="#">休闲鞋</a>
+							<a href="#">豆豆鞋</a>
+							<a href="#">拖鞋</a>
+							<a href="#">靴子</a>
+							<a href="#">板鞋</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">
+								<h4>服装</h4>
+								<img src="img/btmfenlei_img1.jpg"/>
+							</a>
+						</dt>
+						<dd>
+							<a href="#">运动服</a>
+							<a href="#">男运动服</a>
+							<a href="#">女运动服</a>
+							<a href="#">运动裤</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<a href="#">
+								<h4>包包/配件</h4>
+								<img src="img/btmfenlei_img2.jpg"/>
+							</a>
+						</dt>
+						<dd>
+							<a href="#">运动包</a>
+							<a href="#">户外包</a>
+							<a href="#">双肩包</a>
+							<a href="#">单肩包</a>
+							<a href="#">腰包</a>
+							<a href="#">手领包</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--gotopWrap-->
+			<div id="gotopWrap">
+				<a href="#">
+					<img src="img/foot-gotop.jpg"/>
+				</a>
+			</div>
+		</section>
+		<!--footer-->
+		<footer id="footer">
+			<div class="foot_head">
+				<div class="wrap clearfix">
+					<div class="contact">
+						<img src="img/contact.png"/>
+					</div>
+					<ul class="footList clearfix">
+						<li>
+							<h3>
+								<a href="#">
+									<img src="img/foot_img1.png"/>
+								</a>
+							</h3>
+							<h4 class="tit">支付方式</h4>
+							<div class="aLists">
+								<a href="#">在线支付</a><br>
+								<a href="#">货到付款</a><br>
+								<a href="#">发票说明</a>
+							</div>
+						</li>
+						<li>
+							<h3>
+								<a href="#">
+									<img src="img/foot_img2.png"/>
+								</a>
+							</h3>
+							<h4 class="tit">售后服务保障</h4>
+							<div class="aLists">
+								<a href="#">退换货说明</a><br>
+								<a href="#">服务承诺</a>
+							</div>
+						</li>
+						<li>
+							<h3>
+								<a href="#">
+									<img src="img/foot_img3.png"/>
+								</a>
+							</h3>
+							<h4 class="tit">物流配送</h4>
+							<div class="aLists">
+								<a href="#">合作快递</a><br>
+								<a href="#">运费说明</a><br>
+								<a href="#">配送时间</a>
+							</div>
+						</li>
+						<li>
+							<h3>
+								<a href="#">
+									<img src="img/foot_img4.png"/>
+								</a>
+							</h3>
+							<h4 class="tit">会员服务</h4>
+							<div class="aLists">
+								<a href="#">级别和特权</a><br>
+								<a href="#">积分政策</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="foot_middle">
+				<span class="foot_mid_list">
+					<a href="#">关于名鞋库</a>|
+					<a href="#">名鞋库资讯</a>|
+					<a href="#">联系名鞋库</a>|
+					<a href="#">人才招聘</a>|
+					<a href="#">免责条款</a>|
+					<a href="#">法律声明</a>|
+					<a href="#">意见反馈</a>|
+					<a href="#">全部分类</a>|
+					<a href="#">友情链接</a>|
+					<a href="#">鞋码对照表</a>|
+					<a href="#">问答咨询标签主题</a>|
+					<a href="#">鞋子品牌大全</a>|
+					<a href="#">商品大全</a>
+				</span>
+				<div>
+					Copyright &copy; 2008-2014
+					<i>s.cn</i>
+					<a href="#">名鞋库</a>
+					All Rights Reserved.&emsp;
+					<a href="http://www.miibeian.gov.cn" target="_blank">闽ICP备08106896号</a>
+					&emsp;经营许可证闽B2-20110061&emsp;
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020602000166" target="_blank"><img src="https://images.s.cn/images/css/20160617.png">闽公网安备 35020602000166号</a>
+				</div>
+			</div>
+			<div class="div_bottom">
+				<a href="#"><img src="img/foot_bottom_img1.png"/></a>
+				<a href="#"><img src="img/foot_bottom_img2.png"/></a>
+				<a href="#"><img src="img/foot_bottom_img3.png"/></a>
+				<a href="#"><img src="img/foot_bottom_img4.png"/></a>
+			</div>
+		</footer>
+		<div id="rightBar">
+			<div class="rBarBox rBarTop">
+				<i class="rbar-logo gift"></i>
+				<h3 class="rab-wide-txt">热门活动</h3>
+			</div>
+			<div class="rBarBox rBarBrand">
+				<i class="rbar-logo brand"></i>
+				<h3 class="rbar-txt">品牌分类</h3>
+			</div>
+			<div class="rBarBox rBarCart">
+				<div class="cart-border"></div>
+				<i class="rbar-logo cart"></i>
+			</div>
+			<div class="rBarBox rBarOrder">
+				<i class="rbar-logo order"></i>
+			</div>
+			<div class="rBarBox rBarGoTop">
+				<i class="rbar-logo gotop"></i>
+			</div>
+			<div class="rBarBox rBarShare">
+				<i class="rbar-logo share"></i>
+			</div>
+			<div class="rBarBox rBarFavor">
+				<i class="rbar-logo favor"></i>
+			</div>
+		</div>
+	</body>
+</html>
