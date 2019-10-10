@@ -75,12 +75,13 @@ $(function() {
 									},
 									success:function(data){
 										console.log(data);
-										alert("注册成功");
-										location.href = "login.html";
+										
 										//{code: 0, msg: "成功", data: null}
 										// 注册成功
 									}
 								});
+								alert("注册成功");
+								location.href = "login.html";
 							}else{
 								alert("邮箱已存在！");
 							}
